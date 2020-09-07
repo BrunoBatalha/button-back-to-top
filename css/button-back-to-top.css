@@ -1,0 +1,34 @@
+body{
+    height: 500vh;
+    background: black;
+}
+
+.btn-back-to-top{
+    box-sizing: border-box;
+    position: fixed;
+    border: none;
+    cursor: pointer;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;    
+    border-radius: 4px;
+    outline: none;
+}
+.btn-back-to-top div{
+    width: 7px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50px;
+}
+.btn-back-to-top div:nth-child(1){
+    transform: rotate(35deg);
+    margin-right: 4px;
+}
+.btn-back-to-top div:nth-child(2){
+    transform: rotate(-35deg);
+    margin-left: 4px;
+}
